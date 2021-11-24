@@ -25,13 +25,15 @@
 
 - if you wish to build on this repository, you can clone using;
 
-git clone https://github.com/Maxwell-ihiaso/user_api_authentication.git
+        git clone https://github.com/Maxwell-ihiaso/user_api_authentication.git
 
-- change to the cloned directory
-  cd user_api_authentication
+- change to the cloned directory;
 
-- install the required dependencies using
-  npm install
+        cd user_api_authentication
+
+- install the required dependencies using;
+
+        npm install
 
 You should be ready!!!
 
