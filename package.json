@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Maxwell-ihiaso/user_api_authentication#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",

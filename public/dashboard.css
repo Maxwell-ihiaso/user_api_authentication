@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+header {
+  background-color: #64b3f0;
+  padding: 1rem 1.5rem;
+  color: #f3f5f7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section.sidebar {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+section.sidebar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: nowrap;
+}
+
+section.sidebar ul li {
+  color: #032c4c;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+section.main {
+  padding: 1rem;
+  flex: 1;
+}
+
+section.sidebar ul li:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+@media only screen and (min-width: 520px) {
+  main {
+    flex-direction: row;
+  }
+
+  section.sidebar {
+    flex-direction: column;
+    position: static;
+    height: 86vh;
+    justify-content: start;
+    border-right: 1px solid #032c4c;
+  }
+
+  section.sidebar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JWT Token</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>JOI Validation</title>
+    <link rel="stylesheet" href="/public/styles.css" />
   </head>
   <body>
     <main>
       <section>
         <form action="/auth/login" method="POST">
-          <h1>JWT API implementation</h1>
+          <h1>JOI Validation Form</h1>
           <div>
             <label for="email">Email : </label>
             <input type="email" name="email" id="email" required />
@@ -23,12 +23,10 @@
           <button>login</button>
           <p>
             Don't have an account yet?
-            <a href="/register">Register here</a>
+            <a href="/views/register.ejs">Register here</a>
           </p>
         </form>
       </section>
     </main>
-
-    <script src="index.js"></script>
   </body>
 </html>
